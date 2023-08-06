@@ -1,0 +1,16 @@
+name: typing check
+
+on: [push]
+
+jobs:
+  type-checking:
+    runs-on: ubuntu-latest
+    name: Check typing
+    steps:
+      - name: Check out source repository
+        uses: actions/checkout@v3
+      - name: MyPy
+        uses: jpetrucciani/mypy-check@master
+        with:
+          path: './app'
+          requirements_file: requirements.txt

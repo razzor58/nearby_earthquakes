@@ -1,0 +1,13 @@
+name: style check
+
+on: [push]
+
+jobs:
+  flake8-lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out source repository
+        uses: actions/checkout@v3
+
+      - name: flake8 Lint
+        uses: py-actions/flake8@v2

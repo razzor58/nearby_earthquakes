@@ -1,3 +1,5 @@
+![badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/razzor58/4b0b2165685931159ff9aeb4200fc867/raw/coverage.json) ![style & typing check](https://github.com/razzor58/nearby-earthquakes/actions/workflows/pipeline.yaml/badge.svg)
+
 ## Searching nearby earthquakes
 Program implement the test challange described [here](https://github.com/smartrecruiters-coding/ict-nearby-earthquakes-ilya-davydov)
 
