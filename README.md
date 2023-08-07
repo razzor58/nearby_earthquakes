@@ -5,7 +5,7 @@ Program implement the test challenge described [here](https://github.com/smartre
 
 ### Pre-requirements
  - Make sure [docker](https://www.docker.com/products/docker-desktop/) is installed and running on your machine
- - 
+ - Make sure you have [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) installed on your machine
 
 ### Run main program
  - Clone repository and go to source code directory:
