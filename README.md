@@ -1,7 +1,7 @@
-![badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/razzor58/4b0b2165685931159ff9aeb4200fc867/raw/coverage.json) ![style check](https://github.com/razzor58/nearby-earthquakes/actions/workflows/style_check.yaml/badge.svg) ![typing check](https://github.com/razzor58/nearby-earthquakes/actions/workflows/typing_check.yaml/badge.svg)
+![badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/razzor58/4b0b2165685931159ff9aeb4200fc867/raw/coverage.json) ![style check](https://github.com/razzor58/nearby_earthquakes/actions/workflows/style_check.yaml/badge.svg) ![typing check](https://github.com/razzor58/nearby_earthquakes/actions/workflows/typing_check.yaml/badge.svg)
 
 ## Searching nearby earthquakes
-Program implement the test challange described [here](https://github.com/smartrecruiters-coding/ict-nearby-earthquakes-ilya-davydov)
+Program implement the test challenge described [here](https://github.com/smartrecruiters-coding/ict-nearby-earthquakes-ilya-davydov)
 
 ### Pre-requirements
  - Make sure [docker](https://www.docker.com/products/docker-desktop/) is installed and running on your machine
@@ -9,7 +9,7 @@ Program implement the test challange described [here](https://github.com/smartre
 ### Run main program
  - Clone repository:
     ```
-    git clone https://github.com/razzor58/nearby-earthquakes.git
+    git clone https://github.com/razzor58/nearby_earthquakes.git
     ```
  - Build the program:
     ```
