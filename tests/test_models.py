@@ -1,6 +1,6 @@
 import pytest
 
-from app.models import Coordinates, MaxInputAttemptsExceeded, ValidationError
+from app.models import Coordinates, ValidationError
 
 
 def test_create_coordinates():
