@@ -5,11 +5,13 @@ Program implement the test challenge described [here](https://github.com/smartre
 
 ### Pre-requirements
  - Make sure [docker](https://www.docker.com/products/docker-desktop/) is installed and running on your machine
+ - 
 
 ### Run main program
- - Clone repository:
+ - Clone repository and go to source code directory:
     ```
     git clone https://github.com/razzor58/nearby_earthquakes.git
+    cd nearby_earthquakes
     ```
  - Build the program:
     ```
@@ -28,4 +30,9 @@ docker run -it program  pytest --cov=app ./tests
 ### Run type checking
 ```
 docker run -it program  mypy ./app
+```
+
+### Run style checking
+```
+docker run -it program  flake8 ./app
 ```

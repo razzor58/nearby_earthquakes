@@ -31,10 +31,13 @@ def test_error_create_coordinates(latitude, longitude):
 
 @pytest.mark.parametrize("user_input", ["200"])
 def test_too_many_inputs(monkeypatch, user_input):
-    with pytest.raises(MaxInputAttemptsExceeded) as excinfo:
-        monkeypatch.setattr("builtins.input", lambda _: user_input)
+    monkeypatch.setattr("builtins.input", lambda _: user_input)
+
+    with pytest.raises(SystemExit) as pytest_wrapped_e:
         _ = Coordinates.read_from_input()
-    assert str(excinfo.value) == "Too many wrong inputs"
+
+    assert pytest_wrapped_e.type == SystemExit
+    assert pytest_wrapped_e.value.code == 2
 
 
 @pytest.mark.parametrize("user_input", ["80"])
